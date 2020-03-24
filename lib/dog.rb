@@ -1,5 +1,5 @@
 class Dog 
-  def initialize(name, breed="Mut")
+  def initialize(name, breed ="Mutt")
     @name = name
     @breed = breed
     
@@ -20,6 +20,3 @@ def breed
  end
 end
 
-fido = Dog.New("Fido", "Mutt")
-fido.name 
-fido. breed 
